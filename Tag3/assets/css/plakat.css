@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "NimbusSanL-Bol";
+    src: url(/Tag3/assets/fonts/NimbusSanL-Bol.ttf);
+    }
+
+
+body {
+  
+  background-color:rgb(237,210,78);}
+
+h1 {
+  color:black;
+  padding: 8px;
+  font-family:"NimbusSanL-Bol";
+  writing-mode: vertical-lr;
+}
+
+
+
+
+
+
+
+ /* font-family: NimbusSansL-Bol;
+   writing-mode: vertical-lr;
+    text-align:;
+    padding: ;
+    margin: ;
+    font-size: ;
+
+  }*/
+
+  
