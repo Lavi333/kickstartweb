@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Übung Bilder mit Zoomeffekt
+    </title>
+    <style> 
+
+lol {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+}
+  
+lol:hover + div {
+  display: block;
+}
+
+img.bild1 {
+ transition: transform 0.2s;
+}
+img.bild1:hover {
+ transform: scale(2.0, 2.0);
+}
+
+    </style>
+
+<body>
+    <img src="assets/images/bild1.jpeg" class="bild1" width="20%" height="20%" alt="Buben im Feld">
+  
+
+<div class ="lol">Hover over me!</div>
+<div>Das hier wird sichtbar beim hover</div>
+
+
+
+</body>
