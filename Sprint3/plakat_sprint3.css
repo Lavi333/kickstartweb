@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../Sprint1/assets/fonts/Roboto-Medium.ttf);
+    }
+
+/* RESPONSIV mit MEDIAQUERY */
+/* Large devices (laptops/desktops, 992px and up) */
+.background {
+    background-color:#6a3d38;
+    height: 1690px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 150px;
+    color: #42302c;
+    font-family:"Roboto-Medium";
+    padding:0px;
+    letter-spacing: -15px;
+    position: absolute;
+}
+
+
+.redbox{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+    height: 905px;
+    width: 80%;
+    background-color:#b7322d;
+    top:500px;
+    position: absolute;
+}
+
+p {
+    font-size: 80px;
+    color:#372825;
+    font-family: "Roboto-Medium";
+    display: block;
+    position: absolute;
+}
+      
+ 
+
+
+/* MEDIA QUERY for Tablet */
+@media screen and (min-width: 600px) and (max-width: 991px){
+
+    .background {
+    background-color:#6a3d38;
+    height: 1690px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+h1 {
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 200px;
+    color: #a75f4f;
+    font-family:"Roboto-Medium";
+    padding:0px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+
+.redbox{
+   display:flex;
+   justify-content:left;
+   align-items:center;
+   padding-left: 90px;
+    width: 80%;
+    background-color:#30c45c;
+    top: 675px;
+    height:100%;
+    position: absolute;
+}
+
+p {
+    font-size: 80px;
+    color:#372825;
+    font-family: "Roboto-Medium";
+    display: block;
+    position: absolute;
+}
+}
+
+
+
+  /* MEDIA QUERY for Phone */
+  @media screen and (max-width: 600px){
+    
+    .background{ 
+    background-color:#6a3d38;
+    width: 100%;
+} 
+
+h1 {
+    text-align: center;
+    font-size: 150px;
+    color: #42302c;
+    font-family:"Roboto-Medium";
+    padding:0px;
+    letter-spacing: -15px;
+    position: absolute;
+}
+
+
+.redbox{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+    height: 905px;
+    width: 80%;
+    background-color:#b7322d;
+    top:500px;
+    position: absolute;
+}
+
+p {
+    font-size: 40px;
+    color:#372825;
+    font-family: "Roboto-Medium";
+    display: block;
+    position: absolute;
+}
+
+
+}
