@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Übung_Responsive Anagramm</title>
+    <link href="5_Anagramm.css" rel="stylesheet" >
+  
+
+
+<style>
+
+.buchstaben{
+  display: flex;
+  flex-flow: row;
+  flex-direction:row;
+  justify-content:center;
+  align-items: center;
+
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+background-color: burlywood;
+padding:20px;
+order: 0;
+flex: 0 1 auto
+}
+
+@media screen and (max-width: 600px) {
+
+.buchstaben{
+color: azure;
+background-color: blueviolet;
+}
+
+.buchstaben div:nth-of-type(3) {
+order: - 1;}
+}
+
+</style>
+</head>
+
+<body>
+<div class = "container">
+<div class = "buchstaben">
+  <div> H </div>
+  <div> A </div>
+  <div> F </div>
+  <div> E </div>
+  <div> R </div>
+  <div> B </div>
+  <div> R </div>
+  <div> E </div>
+  <div> I </div> 
+</div>
+
+</div>
+</body>
+
+</html>
