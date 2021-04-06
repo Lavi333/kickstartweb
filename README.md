@@ -1,6 +1,6 @@
 # KickstartWeb
 
 
-Sprint 1 
-Sprint 2
-Sprint 3
+Sprint 1 <br>
+Sprint 2 <br>
+Sprint 3 <br>
