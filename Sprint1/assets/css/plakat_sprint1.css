@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(/Tag3/assets/fonts/Roboto-Medium.ttf);
+    }
+
+.background {
+    background-color:#6a3d38;
+    height: 1690px;
+    width: 1150px ;
+   /* height: 1150px;*/
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 390px;
+    color: #372825;
+    font-family:"Roboto-Medium";
+    
+    padding:0px;
+    margin-top:  -55px;
+    margin-left: -80px;
+    margin-bottom: 0px;
+    letter-spacing: -23px;
+}
+h2 {
+    text-align: center;
+    font-size: 390px;
+    color: #372825;
+    font-family:"Roboto-Medium";
+    
+    margin-top: -145px;
+    margin-left: -8px;
+    margin-bottom: 0px;
+    letter-spacing: -20px;
+    position: relative; 
+
+}
+
+.redbox{
+    height: 905px;
+    width: 1010px;
+    background-color:#b7322d;
+    margin-left: 60px;
+    top: 675px;
+    position: absolute;
+    /*top: 675px;
+    
+    padding-left: 20px;
+    */
+}
+
+p {
+    font-size: 55px;
+    color:#372825;
+    font-family: "Roboto-Medium";
+
+    display: block;
+    margin-left:25px;
+    margin-top:560px;
+    line-height: 90%;
+    position: absolute;
+
+
+}
+
+
+    
+
