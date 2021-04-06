@@ -1,0 +1,52 @@
+body {
+    background-color:bisque;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+
+.buchstaben{
+    display: flex;
+    flex-flow: row;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(25, 44, 44);
+    background-color: rgb(134, 105, 160);
+   
+}
+
+.buchstaben div {
+    font-weight: bold;
+    border: solid grey;
+    padding: 6px;
+    flex: 0 1 50px;
+    line-height: 120%;
+   
+    order: 0;
+}
+
+
+@media screen and (max-width: 40em) {
+    .buchstaben {
+        background-color: rgb(25, 44, 44);
+        color: rgb(134, 105, 160);
+    }
+
+    .buchstaben div:nth-of-type(4) {
+        order: -1;
+    }
+
+    .buchstaben div:nth-of-type(6) {
+        order: -2;
+    }
+    
+    .buchstaben div:nth-of-type(0) {
+        order: 0;
+    }
+   
+    }
+
+  
