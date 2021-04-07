@@ -10,4 +10,5 @@ Sprint 2
 https://sprint2lavanya.netlify.app/sprint2/plakat_sprint2
 
 
-Sprint 3 <br>
+Sprint 3
+https://sprint3lavanya.netlify.app/sprint3/plakat_sprint3
