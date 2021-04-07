@@ -1,6 +1,7 @@
 # KickstartWeb
 
-INDEX <br>
+INDEX
+https://indexlavanya.netlify.app
 
 Sprint 1 
 https://sprint1lavanya.netlify.app/sprint1/plakat_sprint1
