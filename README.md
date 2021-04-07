@@ -7,7 +7,7 @@ https://sprint1lavanya.netlify.app/sprint1/plakat_sprint1
 
 
 Sprint 2 <br>
-
+https://sprint2lavanya.netlify.app/sprint2/plakat_sprint2
 
 
 Sprint 3 <br>
