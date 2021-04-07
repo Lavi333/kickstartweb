@@ -1,6 +1,6 @@
 # KickstartWeb
 
-INDEX <br><a href="https://kickweblavanya.netlify.app">https://kickweblavanya.netlify.app</a>
+INDEX <br>
 
 Sprint 1 <br>
 Sprint 2 <br>
